@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Completed
+        run: echo "Buils Completed"
+      - name: Deployment Completed
+        run: echo "Deployment Completed"  
